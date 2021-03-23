@@ -1,0 +1,94 @@
+#top{
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    background-color:  rgb(230, 157, 63);
+    margin: 0px;
+
+}
+div#takePosition{
+    height: 256px;
+}
+#addButton{
+    position: fixed;
+    width: 85px;
+    right: 40px;
+    top: 40px;
+}
+div.period{
+    height: 105px ;
+    width: 100%;
+    position: fixed;
+    top: 149px;
+    background-color:rgb(230, 157, 63) ;
+    margin: 0px;
+
+}
+p.period{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    padding: 7px;
+    background-color:rgb(230, 157, 63);
+    border-radius: 30px;
+}
+p#theChosenOne{
+    background-color: aliceblue;
+}
+#habits{
+    text-align: center;
+    width: 100%;
+}
+#habit{
+    width: 95%;
+    height: 200px;
+}
+div.duration{
+    float: right;
+    right: 40px;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+div#tabColumn{
+    position: fixed;
+    width: 100%;
+    height: 160px;
+    background-color: burlywood;
+    bottom: 0px;
+    
+}
+div#clockIn,#allHabits,#more {
+    display:inline-block;
+    text-align: center;
+    width: 33%;
+    margin: 0px;
+}
+div#clockIn img,#allHabits img,#more img{
+    width: 120px;
+}
+div#clockIn p,#allHabits p,#more p{
+    font-size: 24px;
+    text-align: center;
+    margin-block-start: 0px;
+}
+
+
+
+
+
+
+body {
+    margin: 0px;
+    background-color: cornsilk;
+    border: 0px;
+    padding: 0px;
+}
