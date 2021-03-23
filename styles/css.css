@@ -1,0 +1,68 @@
+ div#top{
+    width: 100%;
+    height: 150px;
+
+    margin:0px;
+    position:fixed;
+    background-color: rgb(230, 157, 63);
+
+    display: block;
+
+}
+img#share{
+    width:90px;
+    position: fixed;
+    left:30px;
+    top: 25px;
+
+}
+img#hide{
+    width: 110px;
+    position: fixed;
+    right:30px;
+    top: 25px;
+}
+
+div#tabColumn{
+    position: fixed;
+    width: 100%;
+    height: 200px;
+    background-color: burlywood;
+    bottom: 0px;
+}
+div#clockIn,#allHabits,#more {
+    display: inline-block;
+    bottom: 25px;
+
+}
+div#clockIn img,#allHabits img,#more img{
+    width: 150px;
+    text-align: center;
+}
+
+div#clockIn p,#allHabits p,#more p{
+    font-size: 10px;
+    text-align: center;
+}
+div#clockIn{
+    left: 20px;
+
+}
+#allHabits{
+    text-align: center;
+}
+#more {
+    right: 20px;
+
+}
+body {
+    margin: 0px;
+    background-image: url('../images/background.jpg');
+
+    border: 0px;
+    padding: 0px;
+}
+
+p{
+    margin-block-start: 0px;
+}
