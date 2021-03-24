@@ -9,19 +9,19 @@
   <body>
     <div id="takePosition"></div>
       <div id="top">
-          <p style="font-size: 70px;font-weight: bold;margin: 0px;margin-top: 30px;">我的习惯</p>
+          <p style="font-size: 60px;font-weight: bold;margin: 0px;margin-top: 30px;">我的习惯</p>
           <img src="images/addButton.png" id="addButton">
       </div>
       <div id="periodControl">
           <div class="period">
-              <p class="period" id="all">全部</p>
+              <p class="period focusSpot" id="all">全部</p>
               <p class="period" id="anyTime">任意时间</p>
               <p class="period" id="lunchBreak">午休时间</p>
           </div>
       </div>
 
       <div id="habits">
-          <div class="habit" class="anyTime">
+          <div class="habit anyTimeHabits">
               
               <img class="habitsIcon" src="images/1.png">
               <div class="theNameOfHabit">
@@ -33,7 +33,7 @@
                 <p style="font-weight: normal;margin-top: 0px; font-size: 35px;height: 100px;">已经坚持</p>
             </div>
           </div>
-          <div class="habit" class="lunchBreakHabits">
+          <div class="habit lunchBreakHabits">
               
             <img class="habitsIcon" src="images/2.png">
             <div class="theNameOfHabit">
@@ -46,7 +46,7 @@
           </div>
         </div>
 
-        <div class="habit" class="lunchBreakHabits">
+        <div class="habit lunchBreakHabits">
               
             <img class="habitsIcon" src="images/3.png">
             <div class="theNameOfHabit">
@@ -64,9 +64,9 @@
 
 
       <div id="tabColumn" >
-        <div id="clockIn">
+        <div id="today">
             <a href="today.html">
-          <img src="images/clockIn.png" />
+          <img src="images/today.png" />
           <p>今日</p>
             </a>
         </div>
@@ -75,12 +75,13 @@
           <p>日常习惯</p>
         </div>
         <div id="more">
+          <a href="more.html">
           <img src="images/more.png" />
-          <p>更多</p>
+          <p>更多</p></a>
         </div>
       </div>
 
 
 
-      <script src="scripts/js.js"></script>
+      <script src="scripts/changeThePeriod.js"></script>
   </body>

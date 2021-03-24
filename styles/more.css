@@ -11,11 +11,11 @@
 div#takePosition{
     height: 256px;
 }
-#topOfMore{
+p#topOfMore{
     font-size: 65px;
     font-weight: bold;
     margin: 0px;
-    margin-top: 20px
+    margin-top: 30px
 }
 img#manageTable{
     width:90px;
@@ -24,10 +24,26 @@ img#manageTable{
     top: 30px;
 }
 img#settings{
-    width: 100px;
+    width: 90px;
     position: fixed;
     right:50px;
     top:30px;
+}
+div#profile{
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+img#profilePicture{
+    width: 300px;
+    border-radius: 300px;
+    border: solid black 5px;
+    
+}
+p#id{
+    font-size: 60px;
+    margin-block-start: 0px;
+    font-weight: 700;
 }
 
 form{
@@ -42,14 +58,43 @@ div.tablerow{
 div.tablerow div{
     display: table-cell;
     vertical-align: top;
-    border:  cornsilk solid 15px;
-    border-radius: 30px;
+    border:  cornsilk solid 25px;
+    border-radius: 60px;
     background-color: tomato;
     text-align: center;
     padding-top: 20px;
+    font-size: 30px;
+    font-weight:600 ;
 }
 
 
+
+div#tabColumn{
+    position: fixed;
+    width: 100%;
+    height: 160px;
+    background-color: burlywood;
+    bottom: 0px;
+}
+div#today,#allHabits,#more {
+    display:inline-block;
+    text-align: center;
+    width: 33%;
+    margin: 0px;
+}
+div#today img,#allHabits img,#more img{
+    width: 100px;
+}
+div#today p,#allHabits p,#more p{
+    font-size: 35px;
+    text-align: center;
+    margin-block-start: 0px;
+    color: black;
+    text-decoration: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
 
 body {
     margin: 0px;
