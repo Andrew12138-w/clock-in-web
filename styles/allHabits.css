@@ -36,23 +36,48 @@ p.period{
     background-color:rgb(230, 157, 63);
     border-radius: 30px;
 }
-p#theChosenOne{
+p#all{
     background-color: aliceblue;
 }
 #habits{
-    text-align: center;
+    
     width: 100%;
 }
-#habit{
-    width: 95%;
+.habit{
+    width: 93%;
     height: 200px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: blueviolet;
+    border: rgb(224, 25, 158) 5px solid;
+    
 }
 div.duration{
     float: right;
-    right: 40px;
+    margin-right: 70px;
+    
     width: 200px;
     height: 200px;
+    text-align: right;
 }
+img.habitsIcon{
+    margin-left:60px;
+    margin-top: 30px;
+    width: 150px;
+}
+div.theNameOfHabit{
+    display: inline-block;
+    width: 300px;
+    
+}
+p.theNameOfHabit{
+    float:left;
+    font-size: 50px;
+    font-weight: bold;
+    margin-block-start: 0px;
+    margin-bottom: 40px;
+}
+
 
 
 

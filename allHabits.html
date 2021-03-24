@@ -4,6 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>allHabits</title>
     <link rel="stylesheet" type="text/css" href="styles/allHabits.css" />
+
   </head>
   <body>
     <div id="takePosition"></div>
@@ -13,21 +14,50 @@
       </div>
       <div id="periodControl">
           <div class="period">
-              <p class="period" id="theChosenOne">任意时间</p>
-              <p class="period">午休时间</p>
+              <p class="period" id="all">全部</p>
+              <p class="period" id="anyTime">任意时间</p>
+              <p class="period" id="lunchBreak">午休时间</p>
           </div>
       </div>
 
       <div id="habits">
-          <div class="habit">
-              <div class="duration">
-                  <p style="font-weight: bold;font-size: 40px;"></p>
-                  <p style="font-weight: normal;font-size: 25px;height: 100px;"></p>
-              </div>
-              <img src="images/1.png">
-              <p style="display: inline;font-size:40px ;">健身</p>
+          <div class="habit" class="anyTime">
               
+              <img class="habitsIcon" src="images/1.png">
+              <div class="theNameOfHabit">
+                  <p class="theNameOfHabit">健身</p>
+              </div>
+            
+              <div class="duration">
+                <p style="font-weight: bold;margin-bottom: 0px; font-size: 50px;">2天</p>
+                <p style="font-weight: normal;margin-top: 0px; font-size: 35px;height: 100px;">已经坚持</p>
+            </div>
           </div>
+          <div class="habit" class="lunchBreakHabits">
+              
+            <img class="habitsIcon" src="images/2.png">
+            <div class="theNameOfHabit">
+                <p class="theNameOfHabit">练字</p>
+            </div>
+          
+            <div class="duration">
+              <p style="font-weight: bold;margin-bottom: 0px; font-size: 50px;">1天</p>
+              <p style="font-weight: normal;margin-top: 0px; font-size: 35px;height: 100px;">已经坚持</p>
+          </div>
+        </div>
+
+        <div class="habit" class="lunchBreakHabits">
+              
+            <img class="habitsIcon" src="images/3.png">
+            <div class="theNameOfHabit">
+                <p class="theNameOfHabit">读书</p>
+            </div>
+          
+            <div class="duration">
+              <p style="font-weight: bold;margin-bottom: 0px; font-size: 50px;">1天</p>
+              <p style="font-weight: normal;margin-top: 0px; font-size: 35px;height: 100px;">已经坚持</p>
+          </div>
+        </div>
       </div>
 
 
@@ -35,8 +65,10 @@
 
       <div id="tabColumn" >
         <div id="clockIn">
+            <a href="today.html">
           <img src="images/clockIn.png" />
           <p>今日</p>
+            </a>
         </div>
         <div id="allHabits">
           <img src="images/allHabits.png" />
@@ -50,4 +82,5 @@
 
 
 
+      <script src="scripts/js.js"></script>
   </body>

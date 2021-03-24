@@ -100,6 +100,11 @@ p.duration{
     font-size:25px ;
     margin-top: 5px;
 }
+img.theIconOfHabit{
+    margin: 20px;
+    background-color: rgba(39, 25, 15, 0.788);
+    border-radius: 130px;
+}
 
 
 
