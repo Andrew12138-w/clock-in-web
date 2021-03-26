@@ -62,3 +62,4 @@ all.onclick=function(){
     this.className+=' focusSpot'
 
 }
+

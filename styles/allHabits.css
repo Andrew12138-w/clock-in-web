@@ -101,6 +101,8 @@ div#today,#allHabits,#more {
     width: 33%;
     margin: 0px;
 }
+
+
 div#today img,#allHabits img,#more img{
     width: 100px;
 }
@@ -111,6 +113,7 @@ div#today p,#allHabits p,#more p{
     color: black;
     text-decoration: none;
 }
+
 a,a:hover{
     text-decoration: none;
 }
