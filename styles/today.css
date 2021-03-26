@@ -58,7 +58,7 @@ p.period {
   background-color: darksalmon;
   border-radius: 30px;
 }
-img#foldButton {
+img.foldButton {
   float: right;
   width: 75px;
   margin-right: 60px;
@@ -72,7 +72,7 @@ img.foldedStatusButton {
   transform: rotate(180deg);
   transition: transform 0.3s;
 }
-img#foldButton.unfoldedStatus {
+img.unfoldedStatus {
   float: right;
   width: 75px;
   margin-right: 60px;
@@ -121,6 +121,8 @@ img.theIconOfHabit {
   width: 160px;
 }
 img.clockedInIcon {
+  transform: rotateZ(180deg);
+  transition: transform 0.5s;
 }
 
 div#tabColumn {
