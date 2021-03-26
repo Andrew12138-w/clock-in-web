@@ -24,12 +24,13 @@ img#hide {
   top: 30px;
 }
 input#search {
-  width: 600px;
+  width: 450px;
   height: 80px;
   margin-top: 35px;
   font-size: 40px;
   font-weight: lighter;
   border-radius: 30px;
+  padding-left: 150px;
 }
 #searchIcon {
   position: fixed;
@@ -65,18 +66,10 @@ img.foldButton {
   margin-top: 15px;
 }
 img.foldedStatusButton {
-  float: right;
-  width: 75px;
-  margin-right: 60px;
-  margin-top: 15px;
   transform: rotate(180deg);
   transition: transform 0.3s;
 }
 img.unfoldedStatus {
-  float: right;
-  width: 75px;
-  margin-right: 60px;
-  margin-top: 15px;
   transform: rotate(180deg);
   transition: transform 0.3s;
 }
@@ -90,7 +83,7 @@ div.habits {
   transition-duration: 0.5s, 0.3s;
   transition-delay: 0s, 0s;
 }
-div.habits.folded {
+.habits.folded {
   opacity: 0;
   max-height: 0px;
   overflow: hidden;
@@ -119,10 +112,35 @@ img.theIconOfHabit {
   border: solid 5px;
   border-color: darkgoldenrod;
   width: 160px;
+  transition: transform 1s 0s, background-color 0.5s ease 0.5s;
 }
-img.clockedInIcon {
-  transform: rotateZ(180deg);
-  transition: transform 0.5s;
+.theIconOfHabit.clockedIcon {
+  transform: rotateY(360deg);
+  background-color: darkgreen;
+}
+.theIconOfHabit.unclockedIcon {
+  background-color: rgb(252, 252, 252);
+}
+
+div#popoutlayer {
+  text-align: center;
+  vertical-align: center;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+}
+div#popouttile {
+  border-radius: 30px;
+  width: 600px;
+  height: 900px;
+  position: fixed;
+  background-color: white;
+}
+div#popouttile_top {
+  background-color: yellowgreen;
+}
+.hidden {
+  display: none;
 }
 
 div#tabColumn {

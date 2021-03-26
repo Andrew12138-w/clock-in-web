@@ -9,7 +9,7 @@
     <div id="takePosition"></div>
     <div id="top">
       <img id="share" src="images/share.png" />
-      <input type="text" id="search" value="                输入习惯名称" />
+      <input type="text" id="search" placeholder="输入习惯名称" />
       <img id="hide" src="images/hide.png" />
       <img id="searchIcon" src="images/search.png" />
     </div>
@@ -72,6 +72,27 @@
       </div>
     </div>
 
+    <div id="backgroundlayer">
+      <div id="popouttile">
+        <div id="popouttile_top">
+          <p id="popouttile_top_description">打卡日志</p>
+          <p id="popouttile_top_time"></p>
+        </div>
+        <div id="popouttile_mid">
+          <img id="popouttile_mid_icon" src="images/2.png" />
+          <p id="popouttile_mid_description">健身</p>
+          <textarea
+            placeholder="写点什么吧~"
+            id="popouttile_mid_textarea"
+          ></textarea>
+        </div>
+        <div id="popouttile_bottom">
+          <p>不再显示</p>
+          <p id="popouttile_bottom_savebutton">保存</p>
+        </div>
+      </div>
+    </div>
+
     <div id="tabColumn">
       <div class="tabButton" id="today">
         <img src="images/activeToday.png" />
@@ -93,4 +114,5 @@
   </body>
 
   <script src="scripts/foldTheHabits.js"></script>
+  <script src="scripts/clockIn.js"></script>
 </html>
